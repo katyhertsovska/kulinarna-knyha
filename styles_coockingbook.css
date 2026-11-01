@@ -1,0 +1,44 @@
+body {
+  font-family: Georgia, serif;
+  background: #fff8f2;
+  color: #3d2b1f;
+  line-height: 1.6;
+  margin: 0;
+}
+
+header {
+  background: #e8743b;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+nav {
+  text-align: center;
+  padding: 12px;
+}
+
+nav a {
+  color: #e8743b;
+  margin: 0 10px;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #e8743b;
+}
+
+.tip {
+  border-left: 3px solid #e8743b;
+  padding-left: 12px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+}
