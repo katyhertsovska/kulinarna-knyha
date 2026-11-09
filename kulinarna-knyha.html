@@ -46,7 +46,34 @@
 
       <p class="tip"> Борщ на другий день смачніший!</p>
     </section>
+   <form action="https://httpbin.org/post" method="POST">
+ 
+      <p>
+        <label>
+          Запропонувати рецепт:
+          <input type="text" name="message" />
+        </label>
+      </p>
 
+      <p>
+        <label>
+          Ваше ім'я:
+          <input type="text" name="name" />
+        </label>
+      </p>
+     
+      <p>
+        <label>
+          Ваш імейл для зворотрнього зв'язку::
+          <input type="email" name="email" />
+        </label>
+      </p>
+
+      <p>
+        <button type="submit">Надіслати</button>
+        <button type="reset">Очистити</button>
+      </p>
+    </form>
   <footer>Смачного! </footer>
 
 </body>
